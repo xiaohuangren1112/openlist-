@@ -94,7 +94,7 @@
 						};
 						break;
 					case 'fnr':
-						random = Math.random() * 0.03;
+						random = Math.random() * 0.01;
 						ret = function(r) {
 							return r + random;
 						};
