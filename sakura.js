@@ -82,13 +82,13 @@
 						ret = Math.random() * 6;
 						break;
 					case 'fnx':
-						random = -0.3 + Math.random() * 0.6;
+						random = -0.2 + Math.random() * 0.4;
 						ret = function(x, y) {
 							return x + 0.5 * random - 1.7;
 						};
 						break;
 					case 'fny':
-						random = 0.8 + Math.random() * 0.5; 
+						random = 0.6 + Math.random() * 0.4; 
 						ret = function(x, y) {
 							return y + random;
 						};
